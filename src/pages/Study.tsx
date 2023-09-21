@@ -62,7 +62,7 @@ export default function Study(){
                   <Drawer.Trigger asChild>
                       <button><AiOutlineEdit className="text-2xl"/></button>
                   </Drawer.Trigger>
-                  <a href={openVerseWeb()} target='blank'><AiOutlineInfoCircle className="text-2xl"/></a>
+                  <a href={openVerseWeb()} target='_blank'><AiOutlineInfoCircle className="text-2xl"/></a>
                   <button onClick={()=>shareNotes()}><AiOutlineShareAlt className="text-2xl"/></button>
                 </div>
               </div>
