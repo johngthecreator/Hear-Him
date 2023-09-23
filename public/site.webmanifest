@@ -1,6 +1,6 @@
 {
-	"name": "HearHim",
-	"short_name": "HearHim",
+	"name": "Celestial",
+	"short_name": "Celestial",
 	"description": "An app to provide quick daily scripture study",
 	"icons": [
 		{
@@ -8,12 +8,6 @@
 			"sizes": "192x192",
 			"type": "image/png",
 			"purpose": "monochrome"
-		},
-		{
-			"src": "/android-chrome-512x512.png",
-			"sizes": "512x512",
-			"type": "image/png",
-			"purpose": "any"
 		},
 		{
 			"src": "/apple-touch-icon.png",
@@ -28,8 +22,8 @@
 			"purpose": "maskable"
 		}
 	],
-	"theme_color": "#171717",
-	"background_color": "#e8ebf2",
+	"theme_color": "#F8F1EA",
+	"background_color": "#F8F1EA",
 	"display": "standalone",
 	"scope": "/",
 	"start_url": "/",
