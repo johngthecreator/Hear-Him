@@ -6,8 +6,8 @@ const manifestForPlugin: Partial<VitePWAOptions> = {
 	registerType: "prompt",
 	includeAssets: ["favicon.ico", "apple-touch-icon.png", "masked-icon.svg"],
 	manifest:{
-		"name": "Celestial",
-		"short_name": "Celestial",
+		"name": "Celeste",
+		"short_name": "Celeste",
 		"description": "An app to provide quick daily scripture study",
 		"icons": [
 			{
@@ -33,7 +33,7 @@ const manifestForPlugin: Partial<VitePWAOptions> = {
 		"background_color": "#F8F1EA",
 		"display": "standalone",
 		"scope": "/",
-		"start_url": "/study",
+		"start_url": "/",
 		"orientation": "portrait"
 	}
 };
