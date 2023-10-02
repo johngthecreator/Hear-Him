@@ -7,7 +7,7 @@ export default function Header(){
             <a href="/study" className="bg-[#FFBD98] block md:hidden px-5 py-2 rounded-lg font-bold">study</a>
             <div className="hidden md:flex gap-10 font-bold">
                 <a href="/study">study</a>
-                <a href="">changelog</a>
+                <a href="/changelog">changelog</a>
                 <a href="/about">about</a>
             </div>
         </header>
