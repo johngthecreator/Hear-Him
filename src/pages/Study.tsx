@@ -20,7 +20,7 @@ export default function Study(){
     let title = scripture?.book_short_title.replace(".","").replace(" ","-")
     let verse = scripture?.verse_number
     let chapter = scripture?.chapter_number
-    return `https://www.churchofjesuschrist.org/study/scriptures/bofm/${title}/${chapter}?lang=eng&id=p${verse}#p${verse}`
+    return `https://www.churchofjesuschrist.org/study/scriptures/bofm/${title}/${chapter}?lang=eng&id=${verse}#p${verse}`
   }
 
   let currDate = (new Date()).toJSON().slice(0, 10)
